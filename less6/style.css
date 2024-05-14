@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./bg-image.jpg);
+    background-size: cover;
+}
+
+.wrapper{
+    width: 500px;
+    margin: 150px auto;
+
+}
+
+.wrapper-row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.wrapper-item{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.301);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.wrapper-item-h1{
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.wrapper-item span{
+    font-size: 24px;
+}
+
+.wrapper-title{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.301);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+#congratulation {
+    display: none;
+    text-align: center;
+    font-size: 36px;
+    color: rgba(14, 165, 224, 0.514);
+    margin-top: 20px;
+}
